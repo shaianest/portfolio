@@ -52,7 +52,7 @@ export default function Page() {
                     <span className="sr-only">GitHub</span>
                   </Button>
                 </Link>
-                <Link href="https://linkedin.com" target="_blank">
+                <Link href="https://linkedin.com/in/shaian-kiany" target="_blank">
                   <Button variant="outline" size="icon">
                     <Linkedin className="h-4 w-4" />
                     <span className="sr-only">LinkedIn</span>
@@ -64,7 +64,7 @@ export default function Page() {
                     <span className="sr-only">Twitter</span>
                   </Button>
                 </Link>
-                <Link href="mailto:hello@example.com">
+                <Link href="mailto:shaian.kiany1@gmail.com">
                   <Button variant="outline" size="icon">
                     <Mail className="h-4 w-4" />
                     <span className="sr-only">Email</span>
@@ -80,25 +80,25 @@ export default function Page() {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-12 text-center">Projects</h2>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               <ProjectCard
-                title="E-commerce Platform"
-                description="A full-stack e-commerce platform built with Next.js, Prisma, and Stripe integration."
-                image="/placeholder.svg?height=400&width=600"
-                link="https://github.com/shaianest"
+                title="Online menu"
+                description="A full-stack Online menu built with django, htmx."
+                image="/meno-digital.png?height=400&width=600"
+                link="https://menodigital.ir/Landing/"
                 tags={["Next.js", "Prisma", "Stripe"]}
               />
               <ProjectCard
-                title="Task Management App"
-                description="A real-time task management application with team collaboration features."
-                image="/placeholder.svg?height=400&width=600"
-                link="https://github.com"
+                title="super Application"
+                description="A super application for transport drivers including tracking, messaging, sos signal and ecommerce."
+                image="/eagle-eye-site.png?height=400&width=600"
+                link="https://eagle-eye.ir/en"
                 tags={["React", "Node.js", "Socket.io"]}
               />
               <ProjectCard
                 title="AI Chat Interface"
                 description="An AI-powered chat interface with natural language processing capabilities."
-                image="/placeholder.svg?height=400&width=600"
-                link="https://github.com"
-                tags={["OpenAI", "Next.js", "TailwindCSS"]}
+                image="/eagle-eye.ir_en.png?height=400&width=600"
+                link="https://chatbot.nafun.ai/"
+                tags={["Next.js", "TailwindCSS"]}
               />
             </div>
           </div>

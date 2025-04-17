@@ -42,60 +42,48 @@ export default function ResumePage() {
             <h2 className="text-2xl font-bold mb-6">Professional Experience</h2>
             <div className="space-y-8">
               <ExperienceItem
-                title="Senior Full Stack Developer"
-                company="nafun tech."
-                period="2018 - Present"
-                location="San Francisco, CA"
+                title="Full Stack Developer"
+                company="raia(رايا انديشان مديريت نوين)"
+                period="2024 - Present"
+                location="Esfahan, iran"
                 responsibilities={[
-                  "Led a team of 5 developers in building a scalable e-commerce platform using Next.js and Node.js",
-                  "Implemented CI/CD pipelines that reduced deployment time by 40%",
+                  "led a team of 3 developers in building a scalable e-commerce platform using Next.js and Node.js",
+                  "Implemented CI/CD pipelines that reduced deployment time by 40% and freed developers time",
                   "Architected and developed RESTful APIs serving over 1M requests daily",
                   "Optimized database queries resulting in a 30% improvement in application performance",
                 ]}
               />
-
               <ExperienceItem
-                title="Full Stack Developer"
-                company="Digital Solutions LLC"
-                period="2018 - 2021"
-                location="Seattle, WA"
+                title="Senior Full Stack Developer"
+                company="nafun tech.(فني و مهندسي ماد الكترونيك اسپادانا)"
+                period="2018 - 2024"
+                location="Esfahan, iran"
                 responsibilities={[
-                  "Developed and maintained multiple client-facing web applications using React and Express",
+                  "Developed and maintained multiple client-facing web applications using React and Next.js",
                   "Collaborated with UX designers to implement responsive designs and improve user experience",
                   "Integrated third-party APIs and services including payment gateways and authentication systems",
                   "Participated in code reviews and mentored junior developers",
                 ]}
               />
 
-              <ExperienceItem
-                title="Frontend Developer"
-                company="WebCraft Studios"
-                period="2016 - 2018"
-                location="Portland, OR"
-                responsibilities={[
-                  "Built interactive user interfaces using React and Redux",
-                  "Implemented responsive designs ensuring cross-browser compatibility",
-                  "Worked with backend developers to integrate frontend with RESTful APIs",
-                  "Participated in agile development processes including daily standups and sprint planning",
-                ]}
-              />
+
             </div>
           </section>
 
           <section className="mb-12">
             <h2 className="text-2xl font-bold mb-6">Education</h2>
             <div className="space-y-6">
-              <EducationItem
+              {/* <EducationItem
                 degree="Master of Science in Computer Science"
                 institution="Stanford University"
                 period="2014 - 2016"
                 description="Specialized in Software Engineering and Artificial Intelligence. Thesis on 'Optimizing React Applications for Performance'."
-              />
+              /> */}
 
               <EducationItem
                 degree="Bachelor of Science in Computer Engineering"
-                institution="University of California, Berkeley"
-                period="2010 - 2014"
+                institution="University of Asharfi , Esfahan"
+                period="2017 - 2021"
                 description="Graduated with honors. Relevant coursework included Data Structures, Algorithms, Database Systems, and Web Development."
               />
             </div>
@@ -104,8 +92,7 @@ export default function ResumePage() {
           <section className="mb-12">
             <h2 className="text-2xl font-bold mb-6">Certifications & Courses</h2>
             <div className="grid gap-4 md:grid-cols-2">
-              <CertificationItem title="AWS Certified Solutions Architect" issuer="Amazon Web Services" date="2022" />
-              <CertificationItem title="Professional Scrum Master I (PSM I)" issuer="Scrum.org" date="2021" />
+              {/* <CertificationItem title="AWS Certified Solutions Architect" issuer="Amazon Web Services" date="2022" /> */}
               <CertificationItem title="Advanced React and Redux" issuer="Udemy" date="2020" />
               <CertificationItem title="MongoDB University Certification" issuer="MongoDB Inc." date="2019" />
               <CertificationItem title="Google Cloud Professional Developer" issuer="Google Cloud" date="2020" />

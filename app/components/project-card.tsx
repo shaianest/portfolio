@@ -19,7 +19,7 @@ export default function ProjectCard({ title, description, image, link, tags }: P
           src={image || "/placeholder.svg"}
           alt={title}
           fill
-          className="object-cover transition-transform hover:scale-105"
+          className="object-contain transition-transform hover:scale-105"
         />
       </div>
       <CardContent className="p-4">
@@ -38,8 +38,7 @@ export default function ProjectCard({ title, description, image, link, tags }: P
       </CardContent>
       <CardFooter className="p-4 pt-0">
         <Link href={link} target="_blank" className="inline-flex items-center gap-2 text-sm hover:underline">
-          <Github className="h-4 w-4" />
-          View on GitHub
+          Visit site
         </Link>
       </CardFooter>
     </Card>
