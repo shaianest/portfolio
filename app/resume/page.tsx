@@ -7,7 +7,7 @@ export default function ResumePage() {
   return (
     <div className="min-h-screen bg-background">
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container flex h-14 items-center">
+        <div className="container flex h-14 items-center m-auto">
           <div className="mr-4 flex">
             <Link className="mr-6 flex items-center space-x-2" href="/">
               <span className="font-bold">Shaian.ir</span>
@@ -131,8 +131,7 @@ export default function ResumePage() {
             <h2 className="text-2xl font-bold mb-6">Languages</h2>
             <div className="grid gap-4 md:grid-cols-3">
               <LanguageItem language="English" proficiency="Native" />
-              <LanguageItem language="Spanish" proficiency="Professional Working" />
-              <LanguageItem language="French" proficiency="Elementary" />
+              <LanguageItem language="deutch" proficiency="Professional Working" />
             </div>
           </section>
         </div>
